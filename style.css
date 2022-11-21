@@ -1,0 +1,953 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color:#F1F1F1 ;
+}
+header{
+    direction: rtl;
+
+}
+nav{
+    direction: rtl;
+    position:relative;
+    display:inline;
+}
+.logo{
+    display: inline;
+    margin: 10px 10px 10px 20px;
+    direction: rtl;
+    width: 40%;
+    height:60% ;
+}
+
+.logo-img{
+    margin: 10px 10px -40px 600px;
+    position: absolute;
+    left: 91.41%;
+    right: 5.76%;
+    top: 0.9%;
+    bottom: 98.44%;    
+    height: 10px;
+    width: 5px;
+    left: 1755.1357421875px;
+    top: 70px;
+    border-radius: [object Object]px;
+
+}
+.logo-img img{
+    margin-top: -100px;
+    margin-right: -40px;
+}
+.logo-name{
+    height: 45.470951080322266px;
+    width: 121.91860961914062px;
+    left: 1621px;
+    top: 73.279296875px;
+    border-radius: 0px;
+
+    margin: 0px 0px -32px 0px;
+}
+.logo-name img{
+    display: inline;
+    height: 50px;
+    width: 40px;
+    margin: 0px 80px 40px 80px;
+    height: 45.470951080322266px;
+    width: 121.91860961914062px;
+    left: 1621px;
+    top: 73.279296875px;
+    border-radius: 0px;
+
+}
+.info{
+    display: inline;
+    margin-right: 240px;
+    margin-top: -50px;
+}
+.info p{
+    margin: 10px;
+    font-family: Yekan Bakh FaNum;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: right;
+
+    display: inline;
+}
+.p{
+    display: inline;
+}
+div > p{
+    display: inline;
+}
+.info li{
+    margin: 10px;
+    font-family: Yekan Bakh FaNum;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: right;
+
+    display: inline;
+}
+.a{
+	text-decoration: none;
+    color: black;
+    text-decoration: none;
+}
+.a:hover{
+    color: black !important;
+}
+#a{
+    margin-right: 376px;
+      margin-top: -20px;  
+    initial-letter: 5px;
+}
+#nav ul{
+	list-style: none;
+}
+#nav li{
+	position: relative;
+}
+#nav > ul > li{
+	float: left;			
+}
+#nav > ul > li > a{
+	display: inline-block;
+	color: white;
+	padding: 0 10px;
+	line-height: 30px;
+}
+#nav > ul > li:hover > a{
+	background-color: #fff;
+	color: black;
+}
+#nav .sub-menu{
+	display: none;
+	position: absolute;			
+}
+
+#nav .sub-menu > li > a{
+	display: block;
+	width: 120px;
+	background-color: #fff;
+	color:black;
+	padding: 5px 10px;
+}
+
+#nav .sub-menu > li:hover > a{
+	background-color: #6F6BF1;
+}
+
+#nav li:hover > .sub-menu{
+	display: block;
+}		
+
+/*************************header******************************/
+
+.rotate{
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg); 
+    color: #6F6BF1;
+    height: 0px;
+    width: 829.0000000000007px;
+    left: 1783px;
+    top: 159px;
+    border-radius: nullpx;
+    margin-top: 450px;
+    margin-left:900px;
+
+    }
+
+    .right-section{
+        height: 500px;
+        width: 500px;
+        margin-left: 700px;
+        margin-top: -350px;
+        
+
+    }
+    
+
+    .right-sec{
+        direction: rtl;
+        display: inline;
+        height: 500px;
+        width: 500px;
+        margin-right: 50px;
+        margin-top: -100px;
+    }
+    .big-content{
+        font-family: Yekan Bakh FaNum;
+        font-size: 75px;
+        font-weight: 800;
+        line-height: 130px;
+        letter-spacing: 0em;
+        text-align: right;
+
+    }
+    .content{
+        position: absolute;
+        width: 692px;
+        height: 66px;
+        top: 686px;
+        font-family: 'Yekan Bakh FaNum';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 33px;
+        text-align: right;
+        color: #000000;
+        opacity: 0.5;
+        margin-right: -10px;
+    }
+    .button{
+        margin-top: 200px;
+    }
+    .button button{
+        margin-left: 50px;
+        /* display: flex; */
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 12px 40px;
+        gap: 12px;
+        color: white;
+
+        /* position: absolute; */
+        left: 74.74%;
+        right: 13.49%;
+        top: 10.52%;
+        bottom: 88.67%;
+
+        /* Primary */
+
+        background: #6F6BF1;
+        border-radius: 20px;        
+    }
+    /********************************section right *************************/
+
+
+.left-section{
+    direction: ltr;
+    margin-left:10px ;
+    position: relative;
+    margin-top: -600px;
+}
+.background{
+     position: absolute;
+     width: 638px;
+     height: 890px;
+     left: 0px;
+     top: 0px;
+     /* Secondary */
+     background: #171621;
+     border-radius: 36px;
+     z-index: 1;
+}
+.card{
+    /* z-index: 2; */
+    height: 120px;
+    width: 302px;
+    left: 0px;
+    top: 0px;
+    border-radius: 31.71428680419922px;
+    margin-left: 400px;
+    background: none;
+    border: none !important;  
+    position: absolute; 
+    display: flex;  
+}
+.card2{
+    margin-left: 320px;
+    margin-top: 250px;
+    display: block;
+    position: absolute; 
+}
+.card1{
+    display: block;
+
+}
+.card > p{
+    z-index: 5;
+    direction: rtl;
+    position: absolute;
+}
+.card-1{
+    z-index: 3;
+    margin-top: 150px;
+    display:inline;
+     position: absolute; 
+     height: 200px;
+}
+.card-2{
+    z-index: 4;
+    display: inline; 
+    height: 200px !important;
+    position: absolute;
+}
+#s{
+     display: block !important;
+     direction: rtl;
+}
+.card-content2 {
+    z-index: 5;
+    padding: 10px 0px 0 16px ;
+}
+.card-content1 {
+    margin-top: 160px;
+    z-index: 5;
+}
+
+/************************************first sec******************************/
+.market> img{
+    position: absolute;
+    width: 1200px;
+    height: 141px;
+    left: 114px;
+    top: 1080px;
+    mix-blend-mode: multiply;
+    border-radius: 18px;
+}
+/****************************************copy*******************************/
+
+
+.service{
+    display:  block;
+    position: relative;
+    margin: 870px 10px 0 10px;
+    direction: rtl;
+    height:450px ;
+}
+.service  p {
+    display: block;
+}
+.rightt-section{
+    height: 100%;
+    border-radius: 30px;
+}
+.rightt-section:hover{
+    background-color:#F1F1F1;
+}
+.rightt-section p ,button{
+    text-align: center;
+}
+.rightt-section #p{
+    color: #6F6BF1;
+    font-family: 'Yekan Bakh FaNum';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 39px;
+}
+.rightt-section .pp{
+    font-family: 'Yekan Bakh FaNum';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 93px;
+    margin-top: 40px;
+}
+.rightt-section button{
+    margin-right: 100px;
+    margin-top: 50px;
+    background-color: #6F6BF1;
+    color: #fff;
+}
+.leftt-section{
+    direction: rtl;
+    display: block;
+    margin-right: 490px;
+    margin-top: -450px;
+}
+.leftt-section hr{
+    width: 80px;
+    margin-right: 20px;
+    color: #6F6BF1;
+    margin-top: 60px;
+}
+.c{
+    display:inline-block;
+    height: 440px;
+    width: 1500px;
+    margin: 10px;
+    border-radius: 30px;
+    border: solid #F1F1F1 2px;
+}
+.c .h6{
+    font-family: Yekan Bakh FaNum;
+    font-size: 26px;
+    font-weight: 800;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: right;
+
+}
+.c p{
+    font-family: Yekan Bakh FaNum;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: justified;
+    margin-right: 10px;
+}
+.c:hover{
+    background-color: #F1F1F1;
+}
+.c button{
+    height:50px;
+    width: 50px;
+    left: 848px;
+    top: 352px;
+    border-radius: 15px;
+    background-color: #6F6BF1;
+    margin-right: 15px;
+}
+/*************************************cards*******************************************/
+.dissCount{
+    z-index: 3;
+    direction: rtl;
+    margin:100px 50px 50px 50px;
+}
+.dis-count{
+    height: 450px;
+    width: 1250px;
+    border-radius: 36px;
+    position:relative;
+    left: 0px;
+    top: 0px;
+
+    /* Primary */
+
+    background: #6F6BF1;
+    border-radius: 36px;    
+}
+.black{
+    position: absolute;
+    width: 100px;
+    height: 230px;
+    left: 1010px;
+    top: 0px;
+    
+    /* Secondary */
+    
+    background: #171621;
+    border-radius: 0px 0px 36px 0px;
+}
+.black p{
+    display: block;
+    color: black;
+    background-color: #fff;
+    margin: 00px 40px 0px 30px;
+    margin-top: 155px ;
+    border: solid #fff 1px;
+    padding: 5px;
+    border-radius: 3px 3px 15px 3px;
+}
+.dissCount-title{
+    color: #fff;
+    margin: 0px 270px 0 0;
+    padding-top: 100px;
+    font-family: 'Yekan Bakh FaNum';
+    font-style: normal;
+    initial-letter: 50px;
+} 
+.dissCount-info{
+    color: #fff;
+    margin: 70px 140px 0 0 ;
+}
+.dis-count button{
+    background-color: #F1F1F1;
+    margin: 20px 140px 0 0 ;
+    border-radius: 10px;
+}
+.dis-count button:hover{
+    color: #fff;
+}
+.map{
+    z-index: 2;
+    padding: 0 40px 0 0;
+    width:400px ;
+    margin: -350px 800px 0 0;
+}
+.map img{
+    z-index: 5;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+}
+/***********************************************************disscount*****************************************************/
+.sabade-kharid{
+    width: 100%;
+    height: 200px;
+    
+}
+
+.moje-rast{
+    margin-top: 500px;
+    width: 10%;
+    direction: rtl;
+    margin-left: 1200px;
+}
+.moje-rast > div{
+    height:10px;
+    border-bottom: solid black 4px;
+    margin-top: 10px;
+    direction: rtl;
+    border-bottom-left-radius: 240px;
+    border-bottom-color: #6F6BF1 ;
+}
+.sabadKharid{
+    display:inline;
+    position: absolute;
+    width: 80%;
+    height: 200px;
+    margin-left: 110px;
+    margin-top: -90px;
+}
+.kharid{
+    display:block;
+    height: 100px;
+    width: 80px;
+    padding: 0px;
+    /* margin:0 0 0 504px ; */
+}
+.imgg{
+    border: solid #F1F1F1 2px;
+    border-radius: 20px;
+    width: 60px;
+    height: 60px;
+    padding: 5px;
+}
+.imgg:hover{
+    border: solid #6F6BF1 2px;
+    background-color: #6F6BF1;
+}
+
+.kharid img{
+    height: 45px;
+    width: 45px;
+    margin: 10px 0 10px 0;
+    padding: 0px;
+    direction: rtl;
+    /* display: block; */
+}
+.kharid p{
+    margin-top: 10px;
+    padding-right: 20px;
+    display: block !important; 
+    direction: rtl;
+    text-align: center;
+}
+.kharid :nth-child(2){
+    font-family: 'Yekan Bakh FaNum';
+    font-style: normal;
+    font-size: 30px;
+    font-weight: 300;
+}
+.kharid :nth-child(3){
+    font-family: 'Yekan Bakh FaNum';
+    font-style: normal;
+}
+.moje-chap{
+    margin: 80px 0 0 0 ;
+    width: 10%;
+}
+.moje-chap > div{
+    height:10px;
+    border-bottom: solid black 2px;
+    margin-top: 10px;
+    border-radius: 240px;
+    border-bottom-color: #6F6BF1 ;
+}
+/*********************************************************sabad kharid  *****************************************/
+.salamat-info{
+    display: block;
+    margin-top: 160px;
+    width: 100%;
+    height: 500px;
+}
+.salamat-content{
+    width: 50%;
+    height: 100%;
+    margin-left: 650px;
+    direction: rtl;
+}
+.salamat-content .h6 {
+    direction: rtl;
+    font-size: 50px;
+    line-height: 90px;
+    font-family: 'Yekan Bakh FaNum';
+    font-style: normal;
+}
+.ppp{
+    color: #171621;
+    opacity: 0.6;
+    font-size: 25px; 
+    display: block !important;
+    margin-top: 70px;
+}
+.bb{
+    margin: 60px 30px 0 0;
+}
+.salamt-cart{
+    width: 48%;
+    height: 100%;
+    margin: -500px 0 000px 0;
+}
+.circle{
+    display: block;
+    border-radius: 100%;
+}
+.circle1{
+    z-index: 2;
+    display: inline-block;
+    width: 270px;
+    height: 270px;
+    margin: 110px 0 0 -50px ;
+    opacity: 0.7;
+    background-color: #f1f1f1;
+}
+.circle2{
+    z-index: 3;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    margin: 0px 00px -80px -100px;
+    background-color: #6F6BF1;
+}
+.cart{
+    z-index: 5;
+    height:200px ;
+    width:280px ;
+    border-radius: 10px;
+    margin: -250px 0 00px 150px;
+}
+.cartt{
+    z-index: 4;
+    height: 100%;
+    width: 100%;
+    /* background-color: #1716219E; */
+    border-radius: 10px;
+    direction: rtl;
+}
+.cartt img{
+    height: 200px;
+    width: 280px;
+}
+.n{
+    direction: rtl;
+    z-index: 5;
+    color: #fff;
+    margin: -180px 5px 0 0;
+    padding-right: 10px;
+}
+/*******************************************************salamat******************************************/
+.bahremandi{
+    margin: 80px 0 0 0 ;
+    display: block;
+    width: 100%;
+    height: 500px;
+    direction: rtl;
+}
+.bahre{
+    display: inline-block;
+    margin: 20px;
+    border-radius: 20px;
+    height: 450px;
+    overflow: hidden;
+    box-shadow: 2px 3px 5px 1px #252527;
+}
+
+.div{
+    width: 100%;
+    height: 100%;
+    margin: 0 120px 0 0;
+}
+.khatt{
+    margin: 160px 250px 0 0;
+    position: relative;
+    display: inline-block;
+}
+.khat{
+    margin: 9px;
+    height: 80%;
+    border: #171621 solid 1px;
+    border-radius: 1000px;
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg); 
+}
+.darSad{
+    border-radius: 10px;
+    background-color:#6F6BF1;
+    width: 15%;
+    height: 40px;
+    text-align: center;
+    margin: -310px 50px 00px 0;
+}
+.darSad div{
+    width: 90%;
+    height: 90%;
+    border: #f1f1f1 solid 1px;
+    border-radius: 10px;
+    margin: 0px 2px 0 0;
+    padding: 6px 2px 2px 2px;
+}
+.darSad p{
+    color: #f1f1f1;
+}
+.titlee{
+    margin: 20px 8px 0 0;
+    font-family: 'Yekan Bakh FaNum';
+    font-style: normal;
+}
+.infoo{
+    margin: 10px 8px 0 0px;
+    padding-left: 65px;
+}
+.titlee :nth-child(1){
+    font-size: 40px;
+}
+.infoo :nth-child(1){
+
+opacity: 0.7;
+}
+.div :hover{
+    background-color:#171621 ;
+    color: #f1f1f1;
+}
+.khat :hover{
+    border: #f1f1f1 solid 1px;
+} 
+/*********************************************************8bahremandi************************************/
+.garardad{
+    width: 90%;
+    height: 500px;
+    margin: 40px 0px 0 60px;
+    border-radius: 40px;
+    background-color: #171621;
+}
+.dayere{
+    height: 90%;
+    width: 35%; 
+    display: inline-block;
+    position: relative;
+    padding: 40px 20px ;
+    margin: 0 0 0 350px;
+}
+.dayeree{
+    display: inline-block;
+    border: #6F6BF14A solid 1px;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    margin: 10px;
+    /* transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);   */
+}
+.garardadd{
+    width: 50%;
+    height: 100%;
+    direction: rtl;
+    margin: -480px 0 0 600px;
+    padding: 90px 20px 0 0;
+}
+.garardadd p{
+    color: #F1F1F1;
+}
+.garardad-title{
+    margin: 0 0 40px 0;
+    font-family: 'Yekan Bakh FaNum';
+    font-style: normal;
+}
+.garardad-title p{
+    font-size: 50px;
+
+}
+.garardad-content{
+    font-family: 'Yekan Bakh FaNum';
+    font-style: normal;
+
+}
+.garardad-content p{
+    font-size:20px ;
+    opacity: 0.6;
+}
+.bbb{
+    margin: -270px 0 0 0;
+}
+.cart-aramis{
+    width: 50%;
+    height: 100%;
+    margin: -450px 0 0 40px;
+    padding: 50px 0 0 0;
+}
+
+.carttt img{
+    position: relative;
+    display: inline;
+    height: 200px;
+}
+.carttt1{
+    position:relative;
+    margin: 00px 100px -150px 80px;
+    direction: rtl;
+}
+.carttt2{
+    position: relative;
+    display: block;
+}
+.carttt1 p{
+    position: relative;
+    display: block;
+}
+.carttt2 p{
+    display: block;
+    direction: rtl;
+}
+.po{
+    direction: rtl;
+    position: absolute;
+    margin: -190px 10px 150px 130px;
+}
+/*************************************************************garardad*****************************************/
+.comment{
+    margin: 200px 0 0 0 ;
+    height: 400px;
+    display: block;
+    direction: rtl;
+}
+.comment p{
+    display: block;
+}
+.comment-right{
+    height: 400px;
+    display: inline-block;
+    margin: 0px 40px  0 0;
+    position:absolute;
+}
+.comment-left{
+    height: 70%;
+    display: inline-block;
+    overflow-y: scroll;
+    position:relative;
+    margin: 100px  500px 0 00px;
+}
+.comment-info{
+    margin: 100px 10px 0 0 ;
+    padding: -100px 10px 0 0 ;
+}
+.comment-info :nth-child(1){
+    color: #6F6BF1;
+    margin: -40px 0 60px 0;
+    font-family: 'Yekan Bakh FaNum';
+    font-style: normal;
+    align-items: center;
+    text-align: right;
+    font-size: 20px;
+}
+.comment-info :nth-child(2){
+    font-family: 'Yekan Bakh FaNum';
+    font-style: normal;
+    align-items: center;
+    text-align: right;
+    font-size: 50px;
+}
+.client-comment{
+    border: #f1f1f1 solid 2px;
+    border-radius: 20px;
+    margin: 40px 200px 00 00;
+    width: 60%;
+    display: inline-block;
+    
+}
+.client-comment img{
+    border-radius: 5px;
+    width: 44px;
+    height: 44px;
+    display: inline;
+}
+.aa{
+    margin: -40px 60px 0 0 ;
+}
+/****************************************************comments*******************************************/
+footer{
+    margin:150px 0 0 0;
+    padding: 0;
+    width: 100%;
+    height: 400px;
+    display:block;
+}
+footer nav{
+    display:block;
+    height: 100%;
+}
+.footer-right{
+    width: 30%;
+    height: 100%;
+    display: inline-block;
+    margin: 40px 50px 0 0 ;
+}
+.footer-logo{
+      margin: 0 0 80px 0; 
+}
+.footer-logo :nth-child(1){
+    width: 40px;
+    height: 37px;
+}
+.footer-logo :nth-child(2){
+    width:97px ;
+    height:31px ;
+}
+.footer-content{
+    margin: 0 0 80px 0;
+}
+.footer-content p{
+    font-family: 'Yekan Bakh FaNum';
+    font-style: normal;
+    opacity: 0.8;
+
+}
+.links img{
+    margin: 10px;
+}
+.footer-left{
+    width: 65%;
+    height: 100%;
+    margin: -400px 700px 0 0 ;
+    padding: 20px 50px 0 0;
+    background-color: #F1F1F1;
+    border-radius: 10px 40px 150px 90px;
+}
+.footer-left ul{
+    list-style-type: none;
+    padding-right:0px;
+}
+.footer-left hr{
+    width: 200px;
+}
+.links{
+    width: 50%;
+    display: inline-block;
+}
+.links li{
+    margin: 10px 0 0 0;
+}
+.connect{
+    width: 50%;
+    display: inline-block;
+    margin: -200px 280px 0 0 ;
+
+}
+
